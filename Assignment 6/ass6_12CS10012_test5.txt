@@ -1,0 +1,19 @@
+  0. :t000	=	10
+  1. :b	=	t000
+  2. :t001	=	t000
+  3. :param	_0
+  4. :t002	=	call prints, 1
+  5. :param	b
+  6. :t003	=	call printi, 1
+  7. :t004	=	& b
+  8. :a	=	t004
+  9. :t005	=	t004
+ 10. :t006	=	5
+ 11. :*a	=	t006
+ 12. :t007	=	t006
+ 13. :param	_1
+ 14. :t008	=	call prints, 1
+ 15. :param	b
+ 16. :t009	=	call printi, 1
+ 17. :t010	=	0
+ 18. :return	t010

@@ -1,0 +1,7 @@
+There are lot of unnecessary goto's and temporary vairables. But these can be removed in the optimization step
+There is a provision of only 999 temporary variables
+There is so specific opcode for double or more pointer variables. There exist no quad for representing the statement **y = 10;
+Bison doesn't allow class type or stl types in %union. If it would have allowed us to use them, the code would have been simpler. The overall classes definitions would have been simpler.
+Since this is tinyC lot of incomplete sectors are there. Therefore it is way deviated from the actual implementation of the standards.
+The structures used in this assignment are not optimized for the given grammar and its functions
+parameter count : the number of parameters sent while a function call are not checked (if they are actually equal to the number of parameters of the function). But since it is to be assumed that the test code is correct we need not worry about this.

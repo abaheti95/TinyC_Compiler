@@ -1,0 +1,82 @@
+Quads for the given program
+  0. :t000	=	'a'
+  1. :y	=	t000
+  2. :t001	=	5
+  3. :a	=	t001
+  4. :t002	=	10
+  5. :b	=	t002
+  6. :t003	=	char2int(y)
+  7. :c	=	t003
+  8. :t004	=	a	*	b
+  9. :t005	=	char2int(x)
+ 10. :t006	=	t004	+	t005
+ 11. :t007	=	int2dbl(t006)
+ 12. :z	=	t007
+ 13. :if x	>	y	goto	16
+ 14. :goto	24
+ 15. :goto	27
+ 16. :t008	=	0.000000
+ 17. :if z	<	t008	goto	20
+ 18. :goto	27
+ 19. :goto	23
+ 20. :t009	=	a
+ 21. :a	=	a	+	1
+ 22. :goto	27
+ 23. :goto	27
+ 24. :t010	=	b
+ 25. :b	=	b	+	1
+ 26. :goto	27
+ 27. :if a	>	b	goto	30
+ 28. :goto	34
+ 29. :goto	49
+ 30. :t011	=	int2dbl(b)
+ 31. :z	=	t011
+ 32. :t012	=	t011
+ 33. :goto	49
+ 34. :if b	==	a	goto	42
+ 35. :goto	36
+ 36. :t013	=	'z'
+ 37. :if x	<	t013	goto	42
+ 38. :goto	45
+ 39. :if y	==	0	goto	45
+ 40. :goto	36
+ 41. :goto	48
+ 42. :t014	=	c
+ 43. :c	=	c	+	1
+ 44. :goto	49
+ 45. :t015	=	c
+ 46. :c	=	c	-	1
+ 47. :goto	49
+ 48. :goto	49
+ 49. :t016	=	0
+ 50. :return	t016
+SymbolTables for the given program
+Symbol Table : global
+main	null	func	0	-1	ptr-to-ST(main)int
+
+Symbol Table : main
+retVal	null	return	4	0	int
+x	null	local	1	4	char
+y	null	local	1	5	char
+t000	   a	temp	1	6	char
+a	null	local	4	7	int
+t001	0005	temp	4	11	int
+b	null	local	4	15	int
+t002	0010	temp	4	19	int
+c	null	local	4	23	int
+t003	null	temp	4	27	int
+z	null	local	8	31	double
+t004	null	temp	4	39	int
+t005	null	temp	4	43	int
+t006	null	temp	4	47	int
+t007	null	temp	8	51	double
+t008	0.000	temp	8	59	double
+t009	null	temp	4	67	int
+t010	null	temp	4	71	int
+t011	null	temp	8	75	double
+t012	null	temp	8	83	double
+t013	   z	temp	1	91	char
+t014	null	temp	4	92	int
+t015	null	temp	4	96	int
+t016	0000	temp	4	100	int
+

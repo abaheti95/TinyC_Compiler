@@ -1,0 +1,61 @@
+Quads for the given program
+  0. :t000	=	'z'
+  1. :ch	=	t000
+  2. :t001	=	10
+  3. :i	=	t001
+  4. :t002	=	7
+  5. :t003	=	i	+	t002
+  6. :j	=	t003
+  7. :t004	=	5.500000
+  8. :dbl	=	t004
+  9. :t005	=	100
+ 10. :t006	=	30
+ 11. :t007	=	40
+ 12. :t008	=	dbl2int(dbl)
+ 13. :return	t008
+ 14. :t009	=	'f'
+ 15. :c	=	t009
+ 16. :t010	=	int2dbl(x)
+ 17. :y	=	t010
+ 18. :return	y
+SymbolTables for the given program
+Symbol Table : global
+function	null	func	0	-1	ptr-to-ST(function)double
+main	null	func	0	-1	ptr-to-ST(main)int
+
+Symbol Table : function
+retVal	null	return	8	0	double
+a	null	param	4	8	int
+b	null	param	4	12	int
+x	null	local	4	16	int
+c	null	local	1	20	char
+t009	   f	temp	1	21	char
+y	null	local	8	22	double
+t010	null	temp	8	30	double
+
+Symbol Table : main
+retVal	null	return	4	0	int
+a	null	local	4	4	int
+b	null	local	4	8	int
+c	null	local	4	12	int
+d1	null	local	8	16	double
+d2	null	local	4	24	ptr(double)
+cp	null	local	4	28	ptr(char)
+ch	null	local	1	32	char
+t000	   z	temp	1	33	char
+i	null	local	4	34	int
+t001	0010	temp	4	38	int
+j	null	local	4	42	int
+t002	0007	temp	4	46	int
+t003	null	temp	4	50	int
+dbl	null	local	8	54	double
+t004	5.500	temp	8	62	double
+arr	null	local	400	74	array(100, int)
+t005	0100	temp	4	70	int
+arr2	null	local	9600	482	array(30, array(40, double))
+t006	0030	temp	4	474	int
+t007	0040	temp	4	478	int
+second	null	local	8	10082	double
+ipp	null	local	4	10090	ptr(ptr(int))
+t008	null	temp	4	10094	int
+

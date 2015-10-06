@@ -1,0 +1,2 @@
+Every function must have a return value
+Array passing in functions is not working properly

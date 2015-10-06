@@ -1,0 +1,25 @@
+  0. :t000	=	1
+  1. :if n	<=	t000	goto	4
+  2. :goto	6
+  3. :goto	6
+  4. :return	n
+  5. :goto	6
+  6. :t001	=	1
+  7. :t002	=	n	-	t001
+  8. :param	t002
+  9. :t003	=	call fibonacci, 1
+ 10. :t004	=	2
+ 11. :t005	=	n	-	t004
+ 12. :param	t005
+ 13. :t006	=	call fibonacci, 1
+ 14. :t007	=	t003	+	t006
+ 15. :return	t007
+ 16. :t008	=	& a
+ 17. :param	t008
+ 18. :t009	=	call readi, 1
+ 19. :param	a
+ 20. :t010	=	call fibonacci, 1
+ 21. :param	t010
+ 22. :t011	=	call printi, 1
+ 23. :t012	=	0
+ 24. :return	t012
